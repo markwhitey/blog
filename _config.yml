@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:git 
-  repository:https://github.com/markwhitey/blog.git
+  repository:git@github.com:markwhitey/blog.git
   branch:run-page
 
 # Generate categories from directory-tree
