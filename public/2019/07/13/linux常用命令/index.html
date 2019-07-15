@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/iconfinder_Love__heart_like_4096575.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/iconfinder_Love__heart_like_4096575 (1).png?v=7.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.2.0',
+    sidebar: {"position":"right","display":"post","offset":12,"onmobile":true,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <meta name="description" content="Linux是一种自由和开放源码的类UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布[5][6]，在加上用户空间的应用程序之后，成为 Linux 操作系统。Linux 也是自由软件和开放源代码软件发展中最著名的例子。只要遵循 GNU 通用公共许可证（GPL），任何个人和机构都可以自由地使用 Linux 的所有底层源代码，也可以自由地修改和再发布。大多数 Linux">
+<meta name="keywords" content="linux,命令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux常用命令">
+<meta property="og:url" content="https://42one.xyz/2019/07/13/linux常用命令/index.html">
+<meta property="og:site_name" content="Martian`Blog">
+<meta property="og:description" content="Linux是一种自由和开放源码的类UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布[5][6]，在加上用户空间的应用程序之后，成为 Linux 操作系统。Linux 也是自由软件和开放源代码软件发展中最著名的例子。只要遵循 GNU 通用公共许可证（GPL），任何个人和机构都可以自由地使用 Linux 的所有底层源代码，也可以自由地修改和再发布。大多数 Linux">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-07-14T10:46:53.460Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="linux常用命令">
+<meta name="twitter:description" content="Linux是一种自由和开放源码的类UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布[5][6]，在加上用户空间的应用程序之后，成为 Linux 操作系统。Linux 也是自由软件和开放源代码软件发展中最著名的例子。只要遵循 GNU 通用公共许可证（GPL），任何个人和机构都可以自由地使用 Linux 的所有底层源代码，也可以自由地修改和再发布。大多数 Linux">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Martian`Blog" type="application/atom+xml">
+
+
+
+  
+  
+  <link rel="canonical" href="https://42one.xyz/2019/07/13/linux常用命令/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>linux常用命令 | Martian`Blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Martian`Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://42one.xyz/2019/07/13/linux常用命令/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Martian">
+      <meta itemprop="description" content="明白自己无能为力是人生的基本，活着就是要在基本上添加别的东西，哪怕是一点点也好。">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Martian`Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">linux常用命令
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-13 23:33:22" itemprop="dateCreated datePublished" datetime="2019-07-13T23:33:22+08:00">2019-07-13</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-07-14 18:46:53" itemprop="dateModified" datetime="2019-07-14T18:46:53+08:00">2019-07-14</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a></span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/linux/常用命令/" itemprop="url" rel="index"><span itemprop="name">常用命令</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+                 Views:  
+                <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+              </span>
+            </span>
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote class="blockquote-center"><p>Linux是一种自由和开放源码的类UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布[5][6]，在加上用户空间的应用程序之后，成为 Linux 操作系统。Linux 也是自由软件和开放源代码软件发展中最著名的例子。只要遵循 GNU 通用公共许可证（GPL），任何个人和机构都可以自由地使用 Linux 的所有底层源代码，也可以自由地修改和再发布。大多数 Linux 系统还包括像提供 GUI 的 X Window 之类的程序。除了一部分专家之外，大多数人都是直接使用 Linux 发行版，而不是自己选择每一样组件或自行设置</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="cd命令"><a class="markdownIt-Anchor" href="#cd命令"></a> <strong>cd命令</strong></h2>
+<hr>
+<p>这是一个非常基本，也是大家经常需要使用的命令，它用于<strong>切换当前目录</strong>，它的参数是要切换到的目录的路径，可以是绝对路径，也可以是相对路径。如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /root/Docements <span class="comment"># 切换到目录/root/Docements</span></span><br><span class="line"><span class="built_in">cd</span> ./path          <span class="comment"># 切换到当前目录下的path目录中，“.”表示当前目录  </span></span><br><span class="line"><span class="built_in">cd</span> ../path         <span class="comment"># 切换到上层目录中的path目录中，“..”表示上一层目录</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="ls命令"><a class="markdownIt-Anchor" href="#ls命令"></a> <strong>ls命令</strong></h2>
+<hr>
+<p>这是一个非常有用的<strong>查看文件与目录的命令</strong>，list之意，它的参数非常多，如下：</p>
+<blockquote>
+<p>-l ：列出长数据串，包含文件的属性与权限数据等<br>
+-a ：列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）<br>
+-d ：仅列出目录本身，而不是列出目录的文件数据<br>
+-h ：将文件容量以较易读的方式（GB，kB等）列出来<br>
+-R ：连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来</p>
+</blockquote>
+<p><em>注：这些参数也可以组合使用</em></p>
+<p>下面举两个例子</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ls -l <span class="comment">#以长数据串的形式列出当前目录下的数据文件和目录</span></span><br><span class="line">ls -lR <span class="comment">#以长数据串的形式列出当前目录下的所有文件</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="grep命令"><a class="markdownIt-Anchor" href="#grep命令"></a> <strong>grep命令</strong></h2>
+<hr>
+<p>该命令常用于分析一行的信息，<strong>若当中有我们所需要的信息，就将该行显示出来</strong>，该命令通常与管道命令一起使用，用于对一些命令的输出进行筛选加工等等，它的简单语法为:<br>
+<code>grep [-acinv] [--color=auto] '查找字符串' filename</code></p>
+<p><strong>它的常用参数如下</strong>：</p>
+<blockquote>
+<p>-a ：将binary文件以text文件的方式查找数据<br>
+-c ：计算找到‘查找字符串’的次数<br>
+-i ：忽略大小写的区别，即把大小写视为相同<br>
+-v ：反向选择，即显示出没有‘查找字符串’内容的那一行</p>
+</blockquote>
+<p>例如：</p>
+<ul>
+<li>取出文件/etc/man.config中包含MANPATH的行，并把找到的关键字加上颜色<br>
+<code>grep --color=auto 'MANPATH' /etc/man.config</code></li>
+<li>把ls -l的输出中包含字母file（不区分大小写）的内容输出<br>
+<code>ls -l | grep -i file</code></li>
+</ul>
+<br>
+<h2 id="find命令"><a class="markdownIt-Anchor" href="#find命令"></a> find命令</h2>
+<hr>
+<p>find是一个<strong>基于查找的功能</strong>非常强大的命令，相对而言，它的使用也相对较为复杂，参数也比较多，所以在这里将给把它们分类列出，它的基本语法如下：<br>
+<code>find [PATH] [option] [action]</code></p>
+<h3 id="与时间有关的参数"><a class="markdownIt-Anchor" href="#与时间有关的参数"></a> <strong>与时间有关的参数</strong></h3>
+<blockquote>
+<p>-mtime n : n为数字，意思为在n天之前的“一天内”被更改过的文件<br>
+-mtime +n : 列出在n天之前（不含n天本身）被更改过的文件名<br>
+-mtime -n : 列出在n天之内（含n天本身）被更改过的文件名<br>
+-newer file : 列出比file还要新的文件名</p>
+</blockquote>
+<p>例如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find /root -mtime 0 <span class="comment"># 在当前目录下查找今天之内有改动的文件</span></span><br></pre></td></tr></table></figure>
+<h3 id="与用户或用户组名有关的参数"><a class="markdownIt-Anchor" href="#与用户或用户组名有关的参数"></a> <strong>与用户或用户组名有关的参数</strong></h3>
+<blockquote>
+<p>-user name : 列出文件所有者为name的文件<br>
+-group name : 列出文件所属用户组为name的文件<br>
+-uid n : 列出文件所有者为用户ID为n的文件<br>
+-gid n : 列出文件所属用户组为用户组ID为n的文件</p>
+</blockquote>
+<p>例如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find /home/ljianhui -user ljianhui <span class="comment"># 在目录/home/ljianhui中找出所有者为ljianhui的文件</span></span><br></pre></td></tr></table></figure>
+<h3 id="与文件权限及名称有关的参数"><a class="markdownIt-Anchor" href="#与文件权限及名称有关的参数"></a> <strong>与文件权限及名称有关的参数</strong></h3>
+<blockquote>
+<p>-name filename ：找出文件名为filename的文件<br>
+-size [±]SIZE ：找出比SIZE还要大（+）或小（-）的文件<br>
+-tpye TYPE ：查找文件的类型为TYPE的文件，TYPE的值主要有：一般文件（f)、设备文件  （b、c）、目录（d）、连接文件（l）、socket（s）、FIFO管道文件（p）<br>
+-perm mode ：查找文件权限刚好等于mode的文件，mode用数字表示，如0755<br>
+-perm -mode ：查找文件权限必须要全部包括mode权限的文件，mode用数字表示<br>
+-perm +mode ：查找文件权限包含任一mode的权限的文件，mode用数字表示</p>
+</blockquote>
+<p>例如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">find / -name passwd <span class="comment"># 查找文件名为passwd的文件</span></span><br><span class="line">find . -perm 0755 <span class="comment"># 查找当前目录中文件权限的0755的文件</span></span><br><span class="line">find . -size +12k <span class="comment"># 查找当前目录中大于12KB的文件，注意c表示byte</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="cp命令"><a class="markdownIt-Anchor" href="#cp命令"></a> <strong>cp命令</strong></h2>
+<hr>
+<p>该命令用于<strong>复制文件</strong>，copy之意，它还可以把多个文件一次性地复制到一个目录下，它的常用参数如下：</p>
+<blockquote>
+<p>-a ：将文件的特性一起复制<br>
+-p ：连同文件的属性一起复制，而非使用默认方式，与-a相似，常用于备份<br>
+-i ：若目标文件已经存在时，在覆盖时会先询问操作的进行<br>
+-r ：递归持续复制，用于目录的复制行为<br>
+-u ：目标文件与源文件有差异时才会复制</p>
+</blockquote>
+<p>例如 ：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cp -a file1 file2 <span class="comment">#连同文件的所有特性把文件file1复制成文件file2</span></span><br><span class="line">cp file1 file2 file3 dir <span class="comment">#把文件file1、file2、file3复制到目录dir中</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="mv命令"><a class="markdownIt-Anchor" href="#mv命令"></a> <strong>mv命令</strong></h2>
+<hr>
+<p>该命令用于<strong>移动文件、目录或更名</strong>，move之意，它的常用参数如下：</p>
+<blockquote>
+<p>-f ：force强制的意思，如果目标文件已经存在，不会询问而直接覆盖<br>
+-i ：若目标文件已经存在，就会询问是否覆盖<br>
+-u ：若目标文件已经存在，且比目标文件新，才会更新</p>
+</blockquote>
+<p><em>注：该命令可以把一个文件或多个文件一次移动一个文件夹中，但是最后一个目标文件一定要是“目录”。</em></p>
+<p>例如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mv file1 file2 file3 dir <span class="comment"># 把文件file1、file2、file3移动到目录dir中</span></span><br><span class="line">mv file1 file2 <span class="comment"># 把文件file1重命名为file2</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="rm命令"><a class="markdownIt-Anchor" href="#rm命令"></a> <strong>rm命令</strong></h2>
+<hr>
+<p>该命令用于<strong>删除文件或目录</strong>，remove之间，它的常用参数如下：</p>
+<blockquote>
+<p>-f ：就是force的意思，忽略不存在的文件，不会出现警告消息<br>
+-i ：互动模式，在删除前会询问用户是否操作<br>
+-r ：递归删除，最常用于目录删除，它是一个非常危险的参数</p>
+</blockquote>
+<p>例如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rm -i file <span class="comment"># 删除文件file，在删除之前会询问是否进行该操作</span></span><br><span class="line">rm -fr dir <span class="comment"># 强制删除目录dir中的所有文件</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="ps命令"><a class="markdownIt-Anchor" href="#ps命令"></a> <strong>ps命令</strong></h2>
+<hr>
+<p>该命令用于<strong>将某个时间点的进程运行情况选取下来并输出</strong>，process之意，它的常用参数如下：</p>
+<blockquote>
+<p>-A ：所有的进程均显示出来<br>
+-a ：不与terminal有关的所有进程<br>
+-u ：有效用户的相关进程<br>
+-x ：一般与a参数一起使用，可列出较完整的信息<br>
+-l ：较长，较详细地将PID的信息列出</p>
+</blockquote>
+<p>其实我们只要记住ps一般使用的命令参数搭配即可，它们并不多，如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ps aux # 查看系统所有的进程数据</span><br><span class="line">ps ax # 查看不与terminal有关的所有进程</span><br><span class="line">ps -lA # 查看系统所有的进程数据</span><br><span class="line">ps axjf # 查看连同一部分进程树状态</span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="kill命令"><a class="markdownIt-Anchor" href="#kill命令"></a> <strong>kill命令</strong></h2>
+<hr>
+<p>该命令用于<strong>向某个工作（%jobnumber）或者是某个PID（数字）传送一个信号</strong>，它通常与ps和jobs命令一起使用，它的基本语法如下：<br>
+<code>kill -signal PID</code><br>
+signal的常用参数如下：</p>
+<blockquote>
+<p>注：最前面的数字为信号的代号，使用时可以用代号代替相应的信号。<br>
+1：SIGHUP，启动被终止的进程<br>
+2：SIGINT，相当于输入ctrl+c，中断一个程序的进行<br>
+9：SIGKILL，强制中断一个进程的进行<br>
+15：SIGTERM，以正常的结束进程方式来终止进程<br>
+17：SIGSTOP，相当于输入ctrl+z，暂停一个进程的进行</p>
+</blockquote>
+<p>例如：</p>
+<ul>
+<li>以正常的结束进程方式来终于第一个后台工作，可用jobs命令查看后台中的第一个工作进程<br>
+kill -SIGTERM %1</li>
+<li>重新改动进程ID为PID的进程，PID可用ps命令通过管道命令加上grep命令进行筛选获得<br>
+kill -SIGHUP PID</li>
+</ul>
+<br>
+<h2 id="killall命令"><a class="markdownIt-Anchor" href="#killall命令"></a> <strong>killall命令</strong></h2>
+<hr>
+<p>该命令<strong>用于向一个命令启动的进程发送一个信号</strong>，它的一般语法如下：<br>
+<code>killall [-iIe] [command name]</code><br>
+它的参数如下：</p>
+<blockquote>
+<p>-i ：交互式的意思，若需要删除时，会询问用户<br>
+-e ：表示后面接的command name要一致，但command name不能超过15个字符<br>
+-I ：命令名称忽略大小写</p>
+</blockquote>
+<p>例如：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">killall -SIGHUP syslogd # 重新启动syslogd</span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="file命令"><a class="markdownIt-Anchor" href="#file命令"></a> <strong>file命令</strong></h2>
+<hr>
+<p>该命令用于<strong>判断接在file命令后的文件的基本数据</strong>，因为在Linux下文件的类型并不是以后缀为分的，所以这个命令对我们来说就很有用了，它的用法非常简单，基本语法如下：<br>
+<code>file filename</code><br>
+例如：<br>
+<code>file ./test</code></p>
+<br>
+<h2 id="tar命令"><a class="markdownIt-Anchor" href="#tar命令"></a> <strong>tar命令</strong></h2>
+<hr>
+<p>该命令用于<strong>对文件进行打包</strong>，默认情况并不会压缩，如果指定了相应的参数，它还会调用相应的压缩程序（如gzip和bzip等）进行压缩和解压。它的常用参数如下：</p>
+<blockquote>
+<p>-c ：新建打包文件<br>
+-t ：查看打包文件的内容含有哪些文件名<br>
+-x ：解打包或解压缩的功能，可以搭配-C（大写）指定解压的目录，注意-c,-t,-x不能同时出现在同一条命令中<br>
+-j ：通过bzip2的支持进行压缩/解压缩<br>
+-z ：通过gzip的支持进行压缩/解压缩<br>
+-v ：在压缩/解压缩过程中，将正在处理的文件名显示出来<br>
+-f filename ：filename为要处理的文件<br>
+-C dir ：指定压缩/解压缩的目录dir</p>
+</blockquote>
+<p>通常我们只需要记住下面三条命令即可：</p>
+<p><strong>压缩：tar -jcv -f filename.tar.bz2 要被处理的文件或目录名称</strong><br>
+<strong>查询：tar -jtv -f filename.tar.bz2</strong><br>
+<strong>解压：tar -jxv -f filename.tar.bz2 -C 欲解压缩的目录</strong><br>
+<strong>注：文件名并不定要以后缀tar.bz2结尾，这里主要是为了说明使用的压缩程序为bzip2</strong></p>
+<br>
+<h2 id="cat命令"><a class="markdownIt-Anchor" href="#cat命令"></a> <strong>cat命令</strong></h2>
+<hr>
+<p>该命令用于<strong>查看文本文件的内容</strong>，后接要查看的文件名，通常可用管道与more和less一起使用，从而可以一页页地查看数据。例如：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat text | less # 查看text文件中的内容</span><br></pre></td></tr></table></figure>
+<p><em>注：这条命令也可以使用less text来代替</em><br>
+<br></p>
+<h2 id="chgrp命令"><a class="markdownIt-Anchor" href="#chgrp命令"></a> <strong>chgrp命令</strong></h2>
+<hr>
+<p>该命令用于<strong>改变文件所属用户组</strong>，它的使用非常简单，它的基本用法如下：<br>
+<code>chgrp [-R] dirname/filename</code><br>
+<em>-R ：进行递归的持续对所有文件和子目录更改</em><br>
+例如：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chgrp users -R ./dir # 递归地把dir目录下中的所有文件和子目录下所有文件的用户组修改为users</span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="chown命令"><a class="markdownIt-Anchor" href="#chown命令"></a> <strong>chown命令</strong></h2>
+<hr>
+<p>该命令用于<strong>改变文件的所有者</strong>，与chgrp命令的使用方法相同，只是修改的文件属性不同</p>
+<br>
+<h2 id="chmod命令"><a class="markdownIt-Anchor" href="#chmod命令"></a> <strong>chmod命令</strong></h2>
+<hr>
+<p>该命令用于<strong>改变文件的权限</strong>，一般的用法如下：<br>
+<code>chmod [-R] xyz 文件或目录</code></p>
+<p><em>-R：进行递归的持续更改，即连同子目录下的所有文件都会更改</em></p>
+<p>同时，chmod还可以使用u（user）、g（group）、o（other）、a（all）和+（加入）、-（删除）、=（设置）跟rwx搭配来对文件的权限进行更改。</p>
+<p>例如：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod 0755 file <span class="comment"># 把file的文件权限改变为-rxwr-xr-x</span></span><br><span class="line">chmod g+w file <span class="comment"># 向file的文件权限中加入用户组可写权限</span></span><br></pre></td></tr></table></figure>
+<br>
+<h2 id="time命令"><a class="markdownIt-Anchor" href="#time命令"></a> <strong>time命令</strong></h2>
+<hr>
+<p>该命令用于<strong>测算一个命令（即程序）的执行时间</strong>。它的使用非常简单，就像平时输入命令一样，不过在命令的前面加入一个time即可，例如：<br>
+<code>time ./process</code><br>
+<code>time ps aux</code><br>
+在程序或命令运行结束后，在最后输出了三个时间，它们分别是：</p>
+<p><strong>user：用户CPU时间，命令执行完成花费的用户CPU时间，即命令在用户态中执行时间总和</strong><br>
+<strong>system：系统CPU时间，命令执行完成花费的系统CPU时间，即命令在核心态中执行时间总和</strong><br>
+<strong>real：实际时间，从command命令行开始执行到运行终止的消逝时间</strong></p>
+<p><em>注：用户CPU时间和系统CPU时间之和为CPU时间，即命令占用CPU执行的时间总和。实际时间要大于CPU时间，因为Linux是多任务操作系统，往往在执行一条命令时，系统还要处理其它任务。另一个需要注意的问题是即使每次执行相同命令，但所花费的时间也是不一样，其花费时间是与系统运行相关的。</em></p>
+
+      
+    </div>
+
+    
+
+    
+      
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/linux/" rel="tag"><i class="fa fa-tag"></i> linux</a>
+          
+            <a href="/tags/命令/" rel="tag"><i class="fa fa-tag"></i> 命令</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+              <div>
+                
+
+<script src="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.css">
+
+
+  
+
+
+<div class="likely likely-light">
+	
+ 	 	<div class="twitter">Tweet</div>
+	
+ 	 	<div class="facebook">Share</div>
+	
+ 	 	<div class="telegram">Send</div>
+	
+ 	 	<div class="whatsapp">Send</div>
+	
+ 	 	<div class="pinterest">Pin</div>
+	
+</div>
+
+              </div>
+            
+            
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/13/linux系统目录详情/" rel="next" title="linux系统目录详情">
+                <i class="fa fa-chevron-left"></i> linux系统目录详情
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/14/正则表达式/" rel="prev" title="正则表达式">
+                正则表达式 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80NTI3My8yMTc4Ng=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+			 <a href="/" class="site-author-image" rel="start" style="border:none">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Martian">
+			 </a>
+            
+              <p class="site-author-name" itemprop="name">Martian</p>
+              <div class="site-description motion-element" itemprop="description">明白自己无能为力是人生的基本，活着就是要在基本上添加别的东西，哪怕是一点点也好。</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">13</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">13</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">25</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/markwhitey" title="GitHub &rarr; https://github.com/markwhitey" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:markjx.yin@gmail.com" title="E-Mail &rarr; mailto:markjx.yin@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://twitter.com/Martian4242" title="Twitter &rarr; https://twitter.com/Martian4242" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#cd命令"><span class="nav-number">1.</span> <span class="nav-text"> cd命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ls命令"><span class="nav-number">2.</span> <span class="nav-text"> ls命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#grep命令"><span class="nav-number">3.</span> <span class="nav-text"> grep命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#find命令"><span class="nav-number">4.</span> <span class="nav-text"> find命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#与时间有关的参数"><span class="nav-number">4.1.</span> <span class="nav-text"> 与时间有关的参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#与用户或用户组名有关的参数"><span class="nav-number">4.2.</span> <span class="nav-text"> 与用户或用户组名有关的参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#与文件权限及名称有关的参数"><span class="nav-number">4.3.</span> <span class="nav-text"> 与文件权限及名称有关的参数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cp命令"><span class="nav-number">5.</span> <span class="nav-text"> cp命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mv命令"><span class="nav-number">6.</span> <span class="nav-text"> mv命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#rm命令"><span class="nav-number">7.</span> <span class="nav-text"> rm命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ps命令"><span class="nav-number">8.</span> <span class="nav-text"> ps命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kill命令"><span class="nav-number">9.</span> <span class="nav-text"> kill命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#killall命令"><span class="nav-number">10.</span> <span class="nav-text"> killall命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#file命令"><span class="nav-number">11.</span> <span class="nav-text"> file命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tar命令"><span class="nav-number">12.</span> <span class="nav-text"> tar命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cat命令"><span class="nav-number">13.</span> <span class="nav-text"> cat命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chgrp命令"><span class="nav-number">14.</span> <span class="nav-text"> chgrp命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chown命令"><span class="nav-number">15.</span> <span class="nav-text"> chown命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chmod命令"><span class="nav-number">16.</span> <span class="nav-text"> chmod命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#time命令"><span class="nav-number">17.</span> <span class="nav-text"> time命令</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Martian</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.2.0"></script>
+
+  <script src="/js/motion.js?v=7.2.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.2.0"></script>
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+
+
+<script>
+  window.livereOptions = {
+    refer: '2019/07/13/linux常用命令/'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+  
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+
+  
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>

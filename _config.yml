@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://42one.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -100,7 +100,7 @@ search:
 feed:
   type: atom
   path: atom.xml
-  limit: 20
+  limit: false
   hub:
   content:
   content_limit: 140
@@ -114,3 +114,19 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+netlify_cms:
+  backend:
+    name: git-gateway
+    branch: master
+     # pages auto generate
+  pages: 
+    enabled: true
+    # over page collection config
+    # if fields not set, would use posts fields config
+    config:
+      label: "Page"
+      delete: false
+      editor:
+        preview: true
+      # fields:

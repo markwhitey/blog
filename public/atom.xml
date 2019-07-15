@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Martian`Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://42one.xyz/"/>
+  <updated>2019-07-15T00:46:41.460Z</updated>
+  <id>https://42one.xyz/</id>
+  
+  <author>
+    <name>Martian</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谈谈精酿啤酒</title>
+    <link href="https://42one.xyz/2019/07/15/%E8%B0%88%E8%B0%88%E7%B2%BE%E9%85%BF%E5%95%A4%E9%85%92/"/>
+    <id>https://42one.xyz/2019/07/15/谈谈精酿啤酒/</id>
+    <published>2019-07-15T00:13:04.000Z</published>
+    <updated>2019-07-15T00:46:41.460Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;How to dispel melancholy, only has Dukang liquor&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="https://42one.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="精酿啤酒" scheme="https://42one.xyz/categories/%E7%94%9F%E6%B4%BB/%E7%B2%BE%E9%85%BF%E5%95%A4%E9%85%92/"/>
+    
+    
+      <category term="精酿啤酒" scheme="https://42one.xyz/tags/%E7%B2%BE%E9%85%BF%E5%95%A4%E9%85%92/"/>
+    
+      <category term="生活" scheme="https://42one.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>谈谈servlet</title>
+    <link href="https://42one.xyz/2019/07/14/%E8%B0%88%E8%B0%88servlet/"/>
+    <id>https://42one.xyz/2019/07/14/谈谈servlet/</id>
+    <published>2019-07-14T13:09:23.000Z</published>
+    <updated>2019-07-14T13:34:02.948Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;servlet生命周期➕get方式和post方式的区别➕forward和redirect的区别➕Session和cookie有什么区别➕jsp和servlet的区别、共同点、各自应用的范围➕属性作用域&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="Web" scheme="https://42one.xyz/categories/Java/Web/"/>
+    
+      <category term="servlet" scheme="https://42one.xyz/categories/Java/Web/servlet/"/>
+    
+    
+      <category term="Web" scheme="https://42one.xyz/tags/Web/"/>
+    
+      <category term="Java" scheme="https://42one.xyz/tags/Java/"/>
+    
+      <category term="servlet" scheme="https://42one.xyz/tags/servlet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java辨析题二</title>
+    <link href="https://42one.xyz/2019/07/14/Java%E8%BE%A8%E6%9E%90%E9%A2%98%E4%BA%8C/"/>
+    <id>https://42one.xyz/2019/07/14/Java辨析题二/</id>
+    <published>2019-07-14T11:30:49.000Z</published>
+    <updated>2019-07-14T11:44:51.068Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;面向对象和面向过程的区别➕Java和c++的区别➕构造器constructor是否可以被override➕hashcode与equals&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="基础" scheme="https://42one.xyz/categories/Java/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Java" scheme="https://42one.xyz/tags/Java/"/>
+    
+      <category term="hashcode" scheme="https://42one.xyz/tags/hashcode/"/>
+    
+      <category term="equals" scheme="https://42one.xyz/tags/equals/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CDN加速</title>
+    <link href="https://42one.xyz/2019/07/14/CDN%E5%8A%A0%E9%80%9F/"/>
+    <id>https://42one.xyz/2019/07/14/CDN加速/</id>
+    <published>2019-07-14T11:19:04.000Z</published>
+    <updated>2019-07-14T12:18:28.075Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的计算机网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、影片、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="Web" scheme="https://42one.xyz/categories/Java/Web/"/>
+    
+    
+      <category term="Web" scheme="https://42one.xyz/tags/Web/"/>
+    
+      <category term="cdn加速" scheme="https://42one.xyz/tags/cdn%E5%8A%A0%E9%80%9F/"/>
+    
+      <category term="katex" scheme="https://42one.xyz/tags/katex/"/>
+    
+      <category term="数学公式" scheme="https://42one.xyz/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>listener与filter</title>
+    <link href="https://42one.xyz/2019/07/14/listener%E4%B8%8Efilter/"/>
+    <id>https://42one.xyz/2019/07/14/listener与filter/</id>
+    <published>2019-07-14T10:56:02.000Z</published>
+    <updated>2019-07-14T11:07:36.741Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Filter是一个可重复使用的代码片段，可以用来转换HTTP请求、响应和头信息。Filter不像Servlet，它不能产生一个请求或者响应，它只是修改对某一资源的请求，或者修改从某一资源的响应。&lt;/p&gt;
+&lt;p&gt;Listener是监听器，通过Listener可以监听Web服务器中某一个执行动作，并根据其要求作出相应的响应。通俗的来说就是在Application，Session，Request三个对象创建、消亡或者往其中添加、修改、删除属性时自动执行代码功能的组件。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="Web" scheme="https://42one.xyz/categories/Java/Web/"/>
+    
+    
+      <category term="Java" scheme="https://42one.xyz/tags/Java/"/>
+    
+      <category term="面试" scheme="https://42one.xyz/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="servlet" scheme="https://42one.xyz/tags/servlet/"/>
+    
+      <category term="listener" scheme="https://42one.xyz/tags/listener/"/>
+    
+      <category term="filter" scheme="https://42one.xyz/tags/filter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于666的高级方程式解法</title>
+    <link href="https://42one.xyz/2019/07/14/%E5%85%B3%E4%BA%8E666%E7%9A%84%E9%AB%98%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%A7%A3%E6%B3%95/"/>
+    <id>https://42one.xyz/2019/07/14/关于666的高级方程式解法/</id>
+    <published>2019-07-14T08:01:44.000Z</published>
+    <updated>2019-07-14T10:32:45.881Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;katex-block&quot;&gt;&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∞&lt;/mi&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;msubsup&gt;&lt;mo&gt;∫&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/msubsup&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;ln&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;mo fence=&quot;true&quot;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo fence=&quot;true&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo fence=&quot;true&quot;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo fence=&quot;true&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;msup&gt;&lt;mrow&gt;&lt;mo fence=&quot;true&quot;&gt;(&lt;/mo&gt;&lt;msubsup&gt;&lt;mo&gt;∫&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/msubsup&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∣&lt;/mi&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∣&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo fence=&quot;true&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mi&gt;exp&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&quot;true&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;munderover&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/munderover&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo fence=&quot;true&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/msup&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence=&quot;true&quot;&gt;(&lt;/mo&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mfrac&gt;&lt;mo fence=&quot;true&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;32&lt;/mn&gt;&lt;/mfrac&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\lim _{x \rightarrow+\infty}-\frac{\int_{0}^{x} \frac{\ln t}{\left(t^{2}+1\right)\left(t^{3}+1\right)} d t\left(\int_{0}^{x}|\sin t| d t\right)^{2} \exp \left(3 \sum_{k=0}^{x} \frac{1}{x+k}\right)}{x^{5} L i_{5}\left(\frac{1}{x}\right)-x^{4}-\frac{1}{32} x^{3}}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:3.06331em;vertical-align:-1.09001em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop op-limits&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.69444em;&quot;&gt;&lt;span style=&quot;top:-2.1em;margin-left:0em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mrel mtight&quot;&gt;→&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;∞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-2.7em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&quot;mop&quot;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.758331em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.9733em;&quot;&gt;&lt;span style=&quot;top:-2.3233em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.0633em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.740108em;&quot;&gt;&lt;span style=&quot;top:-2.9890000000000003em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.30110799999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;minner&quot;&gt;&lt;span class=&quot;mopen delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;delimsizing size1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.6550000000000002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.345em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;delimsizing size1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.740108em;&quot;&gt;&lt;span style=&quot;top:-2.9890000000000003em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.6550000000000002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.345em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.740108em;&quot;&gt;&lt;span style=&quot;top:-2.9890000000000003em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2933em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.0633em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.9733em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.0633em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mop&quot;&gt;&lt;span class=&quot;mop op-symbol small-op&quot; style=&quot;margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;&quot;&gt;∫&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8592920000000001em;&quot;&gt;&lt;span style=&quot;top:-2.34418em;margin-left:-0.19445em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2579000000000002em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.35582em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8801079999999999em;&quot;&gt;&lt;span style=&quot;top:-2.655em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;minner mtight&quot;&gt;&lt;span class=&quot;mopen mtight delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;mtight&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7463142857142857em;&quot;&gt;&lt;span style=&quot;top:-2.786em;margin-right:0.07142857142857144em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size3 size1 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mbin mtight&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose mtight delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;mtight&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;minner mtight&quot;&gt;&lt;span class=&quot;mopen mtight delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;mtight&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7463142857142857em;&quot;&gt;&lt;span style=&quot;top:-2.786em;margin-right:0.07142857142857144em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size3 size1 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mbin mtight&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose mtight delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;mtight&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mop mtight&quot;&gt;ln&lt;/span&gt;&lt;span class=&quot;mspace mtight&quot; style=&quot;margin-right:0.19516666666666668em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.52em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;minner&quot;&gt;&lt;span class=&quot;minner&quot;&gt;&lt;span class=&quot;mopen delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;delimsizing size1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mop&quot;&gt;&lt;span class=&quot;mop op-symbol small-op&quot; style=&quot;margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;&quot;&gt;∫&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8592920000000001em;&quot;&gt;&lt;span style=&quot;top:-2.34418em;margin-left:-0.19445em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2579000000000002em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.35582em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;∣&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;∣&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;delimsizing size1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.0633em;&quot;&gt;&lt;span style=&quot;top:-3.3121920000000005em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;minner&quot;&gt;&lt;span class=&quot;mopen delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;delimsizing size1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop&quot;&gt;&lt;span class=&quot;mop op-symbol small-op&quot; style=&quot;position:relative;top:-0.0000050000000000050004em;&quot;&gt;∑&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.804292em;&quot;&gt;&lt;span style=&quot;top:-2.40029em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.03148em;&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;mrel mtight&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2029em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.29971000000000003em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.655em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mbin mtight&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.03148em;&quot;&gt;k&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.403331em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose delimcenter&quot; style=&quot;top:0em;&quot;&gt;&lt;span class=&quot;delimsizing size1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.09001em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="数学" scheme="https://42one.xyz/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="高级方程式" scheme="https://42one.xyz/categories/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F/"/>
+    
+    
+      <category term="katex" scheme="https://42one.xyz/tags/katex/"/>
+    
+      <category term="数学公式" scheme="https://42one.xyz/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
+    
+      <category term="fun" scheme="https://42one.xyz/tags/fun/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWeb</title>
+    <link href="https://42one.xyz/2019/07/14/JavaWeb/"/>
+    <id>https://42one.xyz/2019/07/14/JavaWeb/</id>
+    <published>2019-07-14T07:50:03.000Z</published>
+    <updated>2019-07-14T11:01:31.021Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;forward和redirect的区别;➕get方式和post方式有何区别;➕什么是cookie?➕session和cookie的区别?;➕Servelet调用流程;➕servletvcontext对象;➕servlet之间进行通信&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="Web" scheme="https://42one.xyz/categories/Java/Web/"/>
+    
+    
+      <category term="Web" scheme="https://42one.xyz/tags/Web/"/>
+    
+      <category term="Java" scheme="https://42one.xyz/tags/Java/"/>
+    
+      <category term="面试" scheme="https://42one.xyz/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="servlet" scheme="https://42one.xyz/tags/servlet/"/>
+    
+      <category term="session" scheme="https://42one.xyz/tags/session/"/>
+    
+      <category term="cookie" scheme="https://42one.xyz/tags/cookie/"/>
+    
+      <category term="forward" scheme="https://42one.xyz/tags/forward/"/>
+    
+      <category term="redirect" scheme="https://42one.xyz/tags/redirect/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合</title>
+    <link href="https://42one.xyz/2019/07/14/Java%E9%9B%86%E5%90%88/"/>
+    <id>https://42one.xyz/2019/07/14/Java集合/</id>
+    <published>2019-07-14T06:37:31.000Z</published>
+    <updated>2019-07-14T10:45:47.225Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;集合的分类;➕ArrayList和vector的区别;➕HashMap与HashTable的区别;➕HashMap是怎么解决哈希冲突的;➕list和map的区别;➕set里的元素是不能重复的,那么用什么方法区分重复元素;➕ArrayList和linkedlist的存储特性;➕ArrayList集合中插入一万条数据,如何提高效率&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="基础" scheme="https://42one.xyz/categories/Java/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Java" scheme="https://42one.xyz/tags/Java/"/>
+    
+      <category term="面试" scheme="https://42one.xyz/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="集合" scheme="https://42one.xyz/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java辨析题</title>
+    <link href="https://42one.xyz/2019/07/14/Java%E8%BE%A8%E6%9E%90%E9%A2%98/"/>
+    <id>https://42one.xyz/2019/07/14/Java辨析题/</id>
+    <published>2019-07-14T03:28:39.000Z</published>
+    <updated>2019-07-14T10:46:04.482Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;==和equals;➕continue和break;final, finally, finalize的区别;➕String和StringBuffer的对比;➕JDK,JRE和JVM的区别和联系;➕接口和抽象类的区别以及联系&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://42one.xyz/categories/Java/"/>
+    
+      <category term="基础" scheme="https://42one.xyz/categories/Java/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Java" scheme="https://42one.xyz/tags/Java/"/>
+    
+      <category term="面试" scheme="https://42one.xyz/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="易混淆" scheme="https://42one.xyz/tags/%E6%98%93%E6%B7%B7%E6%B7%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VIM操作</title>
+    <link href="https://42one.xyz/2019/07/14/VIM%E6%93%8D%E4%BD%9C/"/>
+    <id>https://42one.xyz/2019/07/14/VIM操作/</id>
+    <published>2019-07-14T02:32:47.000Z</published>
+    <updated>2019-07-14T10:47:56.507Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Vim是从vi发展出来的一个文本编辑器。其代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。和Emacs并列成为类Unix系统用户最喜欢的编辑器。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://42one.xyz/categories/linux/"/>
+    
+      <category term="vim操作" scheme="https://42one.xyz/categories/linux/vim%E6%93%8D%E4%BD%9C/"/>
+    
+    
+      <category term="linux" scheme="https://42one.xyz/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>正则表达式</title>
+    <link href="https://42one.xyz/2019/07/14/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>https://42one.xyz/2019/07/14/正则表达式/</id>
+    <published>2019-07-14T02:18:23.000Z</published>
+    <updated>2019-07-14T10:34:44.356Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;正则表达式（英语：Regular Expression，在代码中常简写为regex、regexp或RE），又称正则表示式、正则表示法、规则表达式、常规表示法，是计算机科学的一个概念。正则表达式使用单个字符串来描述、匹配一系列匹配某个句法规则的字符串。在很多文本编辑器里，正则表达式通常被用来检索、替换那些匹配某个模式的文本。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://42one.xyz/categories/linux/"/>
+    
+      <category term="正则表达式" scheme="https://42one.xyz/categories/linux/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+    
+      <category term="linux" scheme="https://42one.xyz/tags/linux/"/>
+    
+      <category term="正则表达式" scheme="https://42one.xyz/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+      <category term="查询" scheme="https://42one.xyz/tags/%E6%9F%A5%E8%AF%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux常用命令</title>
+    <link href="https://42one.xyz/2019/07/13/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://42one.xyz/2019/07/13/linux常用命令/</id>
+    <published>2019-07-13T15:33:22.000Z</published>
+    <updated>2019-07-14T10:46:53.460Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Linux是一种自由和开放源码的类UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布[5][6]，在加上用户空间的应用程序之后，成为 Linux 操作系统。Linux 也是自由软件和开放源代码软件发展中最著名的例子。只要遵循 GNU 通用公共许可证（GPL），任何个人和机构都可以自由地使用 Linux 的所有底层源代码，也可以自由地修改和再发布。大多数 Linux 系统还包括像提供 GUI 的 X Window 之类的程序。除了一部分专家之外，大多数人都是直接使用 Linux 发行版，而不是自己选择每一样组件或自行设置&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://42one.xyz/categories/linux/"/>
+    
+      <category term="常用命令" scheme="https://42one.xyz/categories/linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    
+    
+      <category term="linux" scheme="https://42one.xyz/tags/linux/"/>
+    
+      <category term="命令" scheme="https://42one.xyz/tags/%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux系统目录详情</title>
+    <link href="https://42one.xyz/2019/07/13/linux%E7%B3%BB%E7%BB%9F%E7%9B%AE%E5%BD%95%E8%AF%A6%E6%83%85/"/>
+    <id>https://42one.xyz/2019/07/13/linux系统目录详情/</id>
+    <published>2019-07-13T15:02:07.000Z</published>
+    <updated>2019-07-14T11:00:00.633Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;随着对Linux使用的经验的加深，我们会了解越来越多的目录。对目录的功能知道得越多，我们对Linux系统的工作原理就理解的越深刻，理解操作系统的工作原理，更助于我们更为规范地使用和理解系统中每个目录存在的意义，直至最后几乎知道系统中的每个文件……&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://42one.xyz/categories/linux/"/>
+    
+      <category term="目录" scheme="https://42one.xyz/categories/linux/%E7%9B%AE%E5%BD%95/"/>
+    
+    
+      <category term="linux" scheme="https://42one.xyz/tags/linux/"/>
+    
+      <category term="目录解释" scheme="https://42one.xyz/tags/%E7%9B%AE%E5%BD%95%E8%A7%A3%E9%87%8A/"/>
+    
+  </entry>
+  
+</feed>
