@@ -1,19 +1,14 @@
 ---
 title: A successful Git branching model
-date: 2019-07-16 19:46:21
-tags: 
-- Git 
-- 版本管理
-- branch
+date: 2019-07-16T19:46:21.000Z
+tags:
+  - Git
+  - 版本管理
+  - branch
 categories:
-- Git
-- model
-top:
-mathjax:
+  - Git
+  - model
 ---
-
-
-
 {% cq %}
 
 git同性交友指南
@@ -22,26 +17,26 @@ git同性交友指南
 
 <!-- more -->
 
-
 ![capture_stepup1_5_6.png](https://i.loli.net/2019/07/16/5d2dc5fc1c2ac17597.png)
+
+<br>
+
+
 
 # 主分支(master和develop)
 
----
+- - -
 
-- **master分支**
-
+* **master分支**
   master分支只负责管理发布的状态,在提交时利用标签记录发布版本号
-
-- **develop分支**
-
+* **develop分支**
   develop分支是针对发布的日常开发分支.有合并分支的作用
 
 <br>
 
-#  特性分支(feature)
+# 特性分支(feature)
 
----
+- - -
 
 这个分支是针对新功能的开发，在bug修正的时候从develop分支分叉出来的。基本上不需要共享特性分支的操作，所以不需要远端控制。完成开发后，把分支合并回develop分支后发布。
 
@@ -49,7 +44,7 @@ git同性交友指南
 
 # release分支
 
----
+- - -
 
 release分支是为release做准备的。通常会在分支名称的最前面加上release-。release前需要在这个分支进行最后的调整，而且为了下一版release开发用develop分支的上游分支。
 
@@ -63,7 +58,7 @@ release分支是为release做准备的。通常会在分支名称的最前面加
 
 # hotFix分支
 
----
+- - -
 
 hotFix分支是在发布的产品需要紧急修正时，从master分支创建的分支。通常会在分支名称的最前面加上 hotfix-。
 
