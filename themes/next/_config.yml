@@ -36,8 +36,8 @@ custom_file_path:
 favicon:
   small: /images/iconfinder_Love__heart_like_4096575 (1).png
   medium: /images/iconfinder_Love__heart_like_4096575.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  apple_touch_icon: /images/iconfinder_Love__heart_like_4096575.png
+  safari_pinned_tab: /images/iconfinder_Love__heart_like_4096575.png
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
