@@ -11,7 +11,7 @@ categories:
 ---
 {% cq %}
 
-git同性交友指南
+\# git同性交友指南 #
 
 {% endcq %}
 
@@ -20,8 +20,6 @@ git同性交友指南
 ![capture_stepup1_5_6.png](https://i.loli.net/2019/07/16/5d2dc5fc1c2ac17597.png)
 
 <br>
-
-
 
 # 主分支(master和develop)
 
