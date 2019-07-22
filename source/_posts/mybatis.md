@@ -116,8 +116,8 @@ Mybatis 是一个半 ORM（对象关系映射）框架，它内部封装了 JDBC
 ## 二级缓存的使用
 
 * sqlSession1 去查询用户信息，查询到用户信息会将查询数据存储到二级缓存中。
-* 如果 SqlSession3 去执行相同 mapper 映射下 sql，执行 commit 提交，将会清空该 mapper 映射下的二级缓存区域的数
-* 如果 SqlSession3 去执行相同 mapper 映射下 sql，执行 commit 提交，将会清空该 mapper 映射下的二级缓存区域的数  
+* 如果 SqlSession3 去执行相同 mapper 映射下 sql，执行 commit 提交，将会清空该 mapper 映射下的二级缓存区域的数据.
+* sqlSession2 去查询用户 id 为 1 的用户信息，去缓存中找是否存在数据，如果存在直接从缓存中取出数据。  
 
 ![二级.png](https://i.loli.net/2019/07/21/5d344937bc39c60418.png)
 
