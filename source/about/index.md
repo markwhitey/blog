@@ -1,5 +1,5 @@
 ---
-title: about
+title: WHY 42?
 date: 2019-07-12 21:53:59
 type: "about"
 comments: false
