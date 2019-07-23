@@ -6,7 +6,6 @@ tags:
 - linux
 categories: 
 - linux
-- vim操作
 top:
 ---
 

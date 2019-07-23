@@ -6,10 +6,6 @@ tags:
 - Java
 - Web
 - servlet
-- session
-- cookie
-- forward
-- redirect
 - 面试
 categories: 
 - Java

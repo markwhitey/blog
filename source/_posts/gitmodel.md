@@ -7,7 +7,6 @@ tags:
   - branch
 categories:
   - Git
-  - model
 ---
 {% cq %}
 

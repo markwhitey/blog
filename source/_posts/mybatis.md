@@ -2,12 +2,13 @@
 title: Mybatis
 date: 2019-07-21T16:48:37.000Z
 tags:
+  - Java
   - Mybatis
   - 面试
+  - 框架
 categories:
   - Java框架
   - Mybatis
-  - 基础
 ---
 {% cq %}
 

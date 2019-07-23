@@ -8,7 +8,6 @@ tags:
 categories:
 - Java
 - Web
-- servlet
 top:
 mathjax:
 ---
