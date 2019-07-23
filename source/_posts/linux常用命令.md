@@ -1,6 +1,6 @@
 ---
 title: linux常用命令
-date: 2019-07-13 23:33:22
+date: 2018-07-13 23:33:22
 description: 
 tags: 
 - linux

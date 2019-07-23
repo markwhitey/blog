@@ -1,6 +1,6 @@
 ---
 title: linux系统目录详情
-date: 2019-07-13 23:02:07
+date: 2018-09-13 23:02:07
 description: 
 tags: 
 - linux
