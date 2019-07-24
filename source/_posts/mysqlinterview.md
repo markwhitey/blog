@@ -1,12 +1,10 @@
 ---
 title: Mysql数据库问答
-date: 2019-07-23 21:40:11
+date: 2019-07-23T21:40:11.000Z
 tags:
-- Mysql
+  - Mysql
 categories:
-- Mysql
-top:
-mathjax:
+  - Database
 ---
 
 
