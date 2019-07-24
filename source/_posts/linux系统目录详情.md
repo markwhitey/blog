@@ -4,7 +4,6 @@ date: 2018-09-13 23:02:07
 description: 
 tags: 
 - linux
-- 目录解释
 categories: 
 - linux
 top:

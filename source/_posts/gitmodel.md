@@ -3,7 +3,6 @@ title: A successful Git branching model
 date: 2019-07-16T19:46:21.000Z
 tags:
   - Git
-  - 版本管理
   - branch
 categories:
   - Git
