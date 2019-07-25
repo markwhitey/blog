@@ -4,7 +4,7 @@ date: {{ date }}
 tags: 
 categories: 
 top: 
-mathjax: 
+mathjax: false
 ---
 
 
@@ -16,4 +16,6 @@ mathjax:
 {% endcq %}
 
 <!-- more -->
+
+<br>
 

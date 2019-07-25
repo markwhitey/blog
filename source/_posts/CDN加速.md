@@ -4,10 +4,9 @@ tags:
 - Web
 - cdn加速
 - katex
-- 数学公式
+- Blog
 categories:
-- Java
-- Web
+- Blog
 date: 2019-07-14 19:19:04
 top:
 mathjax: true

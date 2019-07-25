@@ -214,12 +214,12 @@ social_icons:
   transition: false
 
 # Blog rolls
-links_icon: link
-links_title: Links
+links_icon: user-o
+# links_title: Admin
 links_layout: block
-#links_layout: inline
+# links_layout: inline
 links:
-  #Title: http://example.com
+  MARTIAN: https://42one.xyz/admin
 
 # Sidebar Avatar
 avatar:
