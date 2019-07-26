@@ -181,21 +181,72 @@ Hexo 是一个基于 [nodejs](https://www.oschina.net/p/nodejs) 的静态博客�
 
 输入以下内容:
 
-```js
+```bash
 yarn add hexo-netlify-cms
 // or npm
 npm i hexo-netlify-cms --save
 
 ```
 
-## 在hexo的config配置文件夹(非next主题配置)中配置相关依赖
+## 在hexo的config配置文件夹(非next主题配置)中新增以下内容
 
-```js
+```yaml
 netlify_cms:
-  backend:
-    name: git-gateway
-    branch: master
+  config_file: netlify.yaml
 ```
+
+## 在hexo根目录新建`netlify.yaml`文件,添加以下内容
+
+```yaml
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: source/images
+public_folder: /images
+publish_mode: editorial_workflow
+
+# pages auto generate
+pages: 
+  enabled: true
+  # over page collection config
+  # if fields not set, would use posts fields config
+  config:
+    label: "Page"
+    delete: false
+    editor:
+      preview: true
+    # fields: 
+# through hexo config over fields
+over_format: true
+scripts:
+  - js/cms/youtube.js
+  - js/cms/img.js
+
+# A list of collections the CMS should be able to edit
+collections:
+  # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "posts"
+    # Used in the UI, ie.: "New Post"
+    label: "Post"
+    folder: "source/_posts" # The path to the folder where the documents are stored
+    sort: "date:desc"
+    create: true # Allow users to create new documents in this collection
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
+      - {label: "Updeted Date", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
+
+```
+
+
 
 ## 在Netlify中开启服务
 
