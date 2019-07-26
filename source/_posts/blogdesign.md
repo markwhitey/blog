@@ -188,7 +188,7 @@ npm i hexo-netlify-cms --save
 
 ```
 
-## 在hexo的config配置文件夹(非next主题配置)中新增以下内容
+## 在hexo的config配置文件(非next主题配置)中新增以下内容
 
 ```yaml
 netlify_cms:
