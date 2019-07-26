@@ -116,17 +116,4 @@ baidusitemap:
   path: baidusitemap.xml
 
 netlify_cms:
-  backend:
-    name: git-gateway
-    branch: master
-     # pages auto generate
-  pages: 
-    enabled: true
-    # over page collection config
-    # if fields not set, would use posts fields config
-    config:
-      label: "Page"
-      delete: false
-      editor:
-        preview: true
-      # fields:
+  config_file: netlify.yaml
