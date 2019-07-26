@@ -1,13 +1,12 @@
 ---
 title: 博客写作攻略--Hexo+Github+Netlify+CMS
-date: 2019-07-24 18:55:01
+date: 2019-07-24T18:55:01.000Z
+updated: '2019-07-26 13:43:28'
 tags:
-- Blog
-- Git
+  - Blog
+  - Git
 categories:
-- Blog
-top: 1
-mathjax:
+  - Blog
 ---
 
 
@@ -217,9 +216,11 @@ netlify_cms:
 
 ![](https://i.loli.net/2019/07/25/5d398c003751163547.png)
 
-5. 完成后你可以在你的网站后添加后缀/admin,便进入了在线编辑界面(你也可以做一个按钮放在博客主页上来更加简便操作)
+5. 完成后你可以在你的网站后添加后缀/admin,便进入了在线编辑界面(你也可以像我一样做一个按钮放在博客侧边栏上来更加简便操作)
 
 ![](https://i.loli.net/2019/07/25/5d399274a850043818.gif)
+
+![](https://i.loli.net/2019/07/26/5d3a92409142c43951.gif)
 
 参考链接:
 
