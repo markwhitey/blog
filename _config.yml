@@ -124,4 +124,4 @@ tag_cloud:
     textColor: '#333'
     textHeight: 25
     outlineColor: '#7DCEA0'
-    maxSpeed: 0.3 # range from [0.01 ~ 1]
+    maxSpeed: 0.1 # range from [0.01 ~ 1]
