@@ -123,5 +123,5 @@ tag_cloud:
     textFont: 'Trebuchet MS, Helvetica'
     textColor: '#333'
     textHeight: 25
-    outlineColor: '#7DCEA0'
+    outlineColor: '#ABEBC6'
     maxSpeed: 0.1 # range from [0.01 ~ 1]
