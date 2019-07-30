@@ -41,6 +41,20 @@
               {% endfor %}
               {{ _p('counter.tag_cloud', visibleTags) }}
             </div>
+						<!-- Tag Cloud Code -->
+			{% if site.tags.length > 1 %}
+  <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcloud.js') }}"></script>
+  <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcanvas.js') }}"></script>
+  <div class="widget-wrap">
+	<!-- <h3 class="widget-title">Tag Cloud</h3> -->
+	<div id="myCanvasContainer" class="widget tagcloud">
+	  <canvas width="800" height="800" id="resCanvas" style="width=100%">
+		{{ list_tags() }}
+	  </canvas>
+	</div>
+  </div>
+{% endif %}
+<!-- Tag Cloud Code -->
             <div class="tag-cloud-tags">
               {% if not theme.tagcloud %}
                 {{ tagcloud({min_font: 12, max_font: 30, amount: 200, color: true, start_color: '#7DCEA0', end_color: '#229954'}) }}
@@ -49,6 +63,7 @@
               {% endif %}
             </div>
           </div>
+		  
         {% elif page.type === 'categories' %}
           <div class="category-all-page">
             <div class="category-all-title">
