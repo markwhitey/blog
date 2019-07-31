@@ -122,6 +122,6 @@ netlify_cms:
 tag_cloud:
     textFont: 'Trebuchet MS, Helvetica'
     textColor: '#333'
-    textHeight: 25
-    outlineColor: '#ABEBC6'
+    textHeight: 30
+    outlineColor: '#EAEDED'
     maxSpeed: 0.1 # range from [0.01 ~ 1]
