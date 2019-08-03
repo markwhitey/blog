@@ -3,9 +3,9 @@ title: linux系统目录详情
 date: 2018-09-13 23:02:07
 description: 
 tags: 
-- linux
+- Linux
 categories: 
-- linux
+- Linux
 top:
 ---
 

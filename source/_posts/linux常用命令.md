@@ -3,9 +3,9 @@ title: linux常用命令
 date: 2018-07-13 23:33:22
 description: 
 tags: 
-- linux
+- Linux
 categories: 
-- linux
+- Linux
 top:
 ---
 
