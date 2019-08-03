@@ -1,15 +1,15 @@
 ---
-title: entropy
+title: Entropy Note
 mathjax: false
 date: 2019-08-02 17:08:02
 tags: 
 - Entropy
-- formula
+- Formula
 - Machine Learning
 categories:
 - Mathematics
 top:
-photo:
+photo: "https://i.loli.net/2019/08/03/aV4N5cgfiTFns7U.gif"
 ---
 
 
@@ -149,6 +149,8 @@ photo:
 熵在信息论中代表随机变量不确定的度量，发生概率越高的事件，其所携带的信息熵越低。极端案例就是“太阳从东方升起”，因为这是确定事件，所以不携带任何信息熵。从信息论的角度，认为这句话没有消除任何不确定性。而高熵值具有引起“信宿”注意的功能。
 
 但是，语言形式过分的“惊人”则容易把人“吓死”，因为人们对完全陌生的形式会产生漠然而疏远的态度。因此，晦涩、生僻、怪诞的形式容易阻塞信息通道,使信息产生滞阻性，信源发出的信号不能在信宿那儿转化为信息。
+
+<br>
 
 # 信息熵的三条特质
 

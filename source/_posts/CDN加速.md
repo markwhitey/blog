@@ -2,7 +2,7 @@
 title: CDN加速
 tags:
 - Web
-- cdn加速
+- CDN加速
 - katex
 - Blog
 categories:
