@@ -121,7 +121,7 @@ netlify_cms:
 # hexo-tag-cloud
 tag_cloud:
     textFont: 'Trebuchet MS, Helvetica'
-    textColor: '#333'
+    textColor: '#0e6655'
     textHeight: 30
     outlineColor: '#EAEDED'
     maxSpeed: 0.1 # range from [0.01 ~ 1]
