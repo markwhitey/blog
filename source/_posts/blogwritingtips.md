@@ -1,23 +1,21 @@
 ---
 title: 博客写作攻略--常用效率工具
-mathjax: false
-date: 2019-08-04 14:15:33
+date: 2019-08-04T14:15:33.000Z
+updated: '2019-08-05 08:52:30'
 tags:
-- Blog
-- katex
+  - Blog
+  - katex
 categories:
-- Blog
-top:
-photo:
+  - Blog
 ---
 
 
 
 {% cq %}
 
-**ShareX:方便地上传写作的配图或截图等图片**
+**ShareX**:方便地上传写作的配图或截图等图片
 
-**Mathpix Snip:是一个漂亮的小工具，允许你截取复杂数学方程式的截图，并将其转换为 LaTeX 可编辑文本。**
+**Mathpix Snip**:是一个漂亮的小工具，允许你截取复杂数学方程式的截图，并将其转换为 LaTeX 可编辑文本。
 
 {% endcq %}
 
