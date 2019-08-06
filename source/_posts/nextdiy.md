@@ -137,3 +137,7 @@ tag_cloud:
     maxSpeed: 0.5
 ```
 
+**效果如图**:
+
+![](https://i.loli.net/2019/08/06/OHS5Qkxd2VWazCZ.gif)
+
