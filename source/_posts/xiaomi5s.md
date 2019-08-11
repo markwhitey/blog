@@ -35,4 +35,14 @@ photo:
 ## 手机刷机后界面
 
 
-{% tabs First unique name %}<!-- tab -->**This is Tab 1.**<!-- endtab --><!-- tab -->**This is Tab 2.**<!-- endtab --><!-- tab -->**This is Tab 3.**<!-- endtab -->{% endtabs %}
+{% tabs 选项卡, 3 %}
+<!-- tab -->
+这是选项卡 1
+<!-- endtab -->
+<!-- tab -->
+这是选项卡 2
+<!-- endtab -->
+<!-- tab -->
+这是选项卡 3
+<!-- endtab -->
+{% endtabs %}

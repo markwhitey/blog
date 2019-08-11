@@ -901,7 +901,7 @@ tabs:
   transition:
     tabs: true
     labels: true
-  border_radius: 0
+  border_radius: 2
 
 # PDF tag, requires two plugins: pdfObject and pdf.js
 # pdfObject will try to load pdf files natively, if failed, pdf.js will be used.
