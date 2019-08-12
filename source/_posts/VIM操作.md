@@ -1,5 +1,5 @@
 ---
-title: VIM操作
+title: LINUX系列--VIM操作
 date: 2017-08-14 10:32:47
 description:
 tags: 

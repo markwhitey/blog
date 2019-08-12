@@ -1,5 +1,5 @@
 ---
-title: linux常用命令
+title: LINUX系列--常用命令
 date: 2017-07-13 23:33:22
 description: 
 tags: 

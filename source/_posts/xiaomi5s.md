@@ -56,9 +56,9 @@ photo:
 <!-- endtab -->
 <!-- tab 小米视频和小米音乐-->
 **其中的小米音乐、小米视频等都是做过去广告的特殊处理，打开后是个完全纯净的播放器。整个系统的干净程度可与ios系统相比。**
-{% gp 3-1 %}
+{% gp 2-2 %}
 <img src="https://i.loli.net/2019/08/11/OskfhxPlXY7U6nz.jpg" >
-<img src="https://i.loli.net/2019/08/11/QNXKqBD8Lpoug7C.jpg">
+<img src="https://i.loli.net/2019/08/11/QNXKqBD8Lpoug7C.jpg" >
 {% endgp %}
 <!-- endtab -->
 {% endtabs %}
