@@ -125,6 +125,3 @@ tag_cloud:
     textHeight: 30
     outlineColor: '#EAEDED'
     maxSpeed: 0.1 # range from [0.01 ~ 1]
-
-custom_file_path:
-  style: source/_data/styles.styl
