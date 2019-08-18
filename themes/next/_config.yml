@@ -573,7 +573,7 @@ bookmark:
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
   enable: true
-  color: "#37c6c0"
+  color: "#45b39d"
   height: 2px
 
 # Google Calendar
