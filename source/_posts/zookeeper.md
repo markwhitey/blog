@@ -4,6 +4,7 @@ mathjax: false
 date: 2019-08-31 10:26:02
 tags:
 - Big Data
+- Zookeeper
 categories:
 - Big Data
 - Hadoop

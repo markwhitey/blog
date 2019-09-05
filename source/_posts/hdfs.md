@@ -4,6 +4,7 @@ mathjax: false
 date: 2019-08-25 09:15:33
 tags:
 - Big Data
+- HDFS
 categories:
 - Big Data
 - Hadoop
