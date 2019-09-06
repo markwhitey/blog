@@ -1,5 +1,5 @@
 ---
-title: Hadoop框架--Flume笔记
+title: Big Data框架--Flume笔记
 mathjax: false
 date: 2019-09-05 14:47:26
 tags:

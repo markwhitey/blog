@@ -1,5 +1,5 @@
 ---
-title: Hadoop框架--Zookeeper笔记
+title: Big Data框架--Zookeeper笔记
 mathjax: false
 date: 2019-08-31 10:26:02
 tags:
