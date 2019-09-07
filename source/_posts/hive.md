@@ -36,16 +36,17 @@ Hive：由Facebook开源用于解决海量结构化日志的数据统计。
 
 本质是：将HQL转化成MapReduce程序
 
-{% mermaid type  LR	%}
-
-A[Christmas] -->|Get money| B(Go shopping)
-B --> C{Let me thinksssss<br/>ssssssssssssssssssssss<br/>sssssssssssssssssssssssssss
-C -->|One| D[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[Car]
-
-
+{% mermaid graph TD %}
+A[用户创建table] -->|通过映射关系向表中导入数据 |B[数据仓库] 
+B --> |metastore中记录着表对应文件的path| C[hive中的元数据库metastore]
+C --> |解析器查询输入文件的path| D[hive中的解析器]
+D --> F[MapReduce体系结构] 
+F --> G(result)
+H[用户针对数据表进行数据分析] --> |用户只需要创建表,将表与数据建立映射关系,编写sql分析语句| A
+H --> |将 sql语句解析成对应的MapReduce程序,并生成相应的jar包 | D
 {% endmermaid %}
+
+
 
 **特点:**
 
