@@ -178,11 +178,11 @@ MapReduce是一个分布式运算程序的编程框架,是基于Hadoop的数据�
 
 5. **Combiner合并**
 
-   Combiner合并可以提高程序执行效率,减少10传输。但是使用时必须不能影响原有的业务处理结果。
+   Combiner合并可以提高程序执行效率,减少IO传输。但是使用时必须不能影响原有的业务处理结果。
 
 6. **Reduce端分组: GroupingComparator**
 
-   ​	在Reduce端对key进行分组。应用于:在接收的key为bean对象时,想上一个或几个字段相同(全部字段比较不相同)的	key进入到同一个reduce方法时,可以采用分组排序
+   在Reduce端对key进行分组。应用于:在接收的key为bean对象时,想上一个或几个字段相同(全部字段比较不相同)的	key进入到同一个reduce方法时,可以采用分组排序
 
 7. **逻辑处理接口: Reducer**
 
