@@ -7,7 +7,6 @@ tags:
 - Zookeeper
 categories:
 - Big Data
-- Hadoop
 top:
 photo:
 ---

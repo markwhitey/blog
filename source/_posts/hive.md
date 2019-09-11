@@ -7,7 +7,6 @@ tags:
 - Hive
 categories:
 - Big Data
-- Hadoop
 top:
 photo:
 ---

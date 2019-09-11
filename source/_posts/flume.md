@@ -7,7 +7,6 @@ tags:
 - Flume
 categories:
 - Big Data
-- Hadoop
 top:
 photo:
 ---

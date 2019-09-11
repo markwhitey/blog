@@ -15,7 +15,7 @@ photo:
 
 {% cq %}
 
-Kafka是一个分布式消息队列
+**Kafka是一个分布式消息队列**
 
 {% endcq %}
 
@@ -87,7 +87,7 @@ Kafka是一个分布式消息队列
 
 - Apache Kafka是一个开源**消息**系统，由Scala写成。是由Apache软件基金会开发的一个开源消息系统项目。
 - Kafka最初是由LinkedIn公司开发，并于2011年初开源。2012年10月从Apache Incubator毕业。该项目的目标是为处理实时数据提供一个统一、高通量、低等待的平台。
-- **Kafka是一个分布式消息队列。**Kafka对消息保存时根据Topic进行归类，发送消息者称为Producer，消息接受者称为Consumer，此外kafka集群有多个kafka实例组成，每个实例(server)称为broker。
+- **Kafka是一个分布式消息队列**。Kafka对消息保存时根据Topic进行归类，发送消息者称为Producer，消息接受者称为Consumer，此外kafka集群有多个kafka实例组成，每个实例(server)称为broker。
 - 无论是kafka集群，还是consumer都依赖于**zookeeper**集群保存一些meta信息，来保证系统可用性。
 
 <br>
@@ -281,7 +281,7 @@ kafka提供了两套consumer API：高级Consumer API和低级Consumer API。
 
 ![](https://i.loli.net/2019/09/08/BoCijxKJStm2MXZ.png)
 
-消费者是以consumer group消费者组的方式工作，**由一个或者多个消费者组成一个组，共同消费一个topic**。**每个分区在同一时间只能由group中的一个消费者读取，但是多个group可以同时消费这个partition。**在图中，有一个由三个消费者组成的group，有一个消费者读取主题中的两个分区，另外两个分别读取一个分区。某个消费者读取某个分区，也可以叫做某个消费者是某个分区的拥有者。
+消费者是以consumer group消费者组的方式工作，**由一个或者多个消费者组成一个组，共同消费一个topic**。**每个分区在同一时间只能由group中的一个消费者读取，但是多个group可以同时消费这个partition**。在图中，有一个由三个消费者组成的group，有一个消费者读取主题中的两个分区，另外两个分别读取一个分区。某个消费者读取某个分区，也可以叫做某个消费者是某个分区的拥有者。
 
 在这种情况下，**消费者可以通过水平扩展的方式同时读取大量的消息**。另外，如果一个消费者失败了，那么其他的group成员会**自动负载均衡读取之前失败的消费者读取的分区**。
 

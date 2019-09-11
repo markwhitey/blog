@@ -7,7 +7,6 @@ tags:
 - Yarn
 categories:
 - Big Data
-- Hadoop
 top:
 photo:
 ---

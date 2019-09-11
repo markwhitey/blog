@@ -7,7 +7,6 @@ tags:
 - MapReduce
 categories:
 - Big Data
-- Hadoop
 top:
 photo:
 ---
