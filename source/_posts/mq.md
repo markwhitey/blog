@@ -1,5 +1,5 @@
 ---
-title: 如何保证消息队列的高可用
+	title: 如何保证消息队列的高可用
 mathjax: false
 date: 2019-09-11 09:24:02
 tags:

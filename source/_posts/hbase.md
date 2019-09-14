@@ -1,10 +1,10 @@
 ---
-title: Big Data框架--Hbase笔记
+title: Big Data框架--HBase笔记
 mathjax: false
 date: 2019-09-08 19:06:23
 tags:
 - Big Data
-- Hbase
+- HBase
 categories:
 - Big Data
 top:
