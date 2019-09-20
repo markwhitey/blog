@@ -68,6 +68,10 @@ esac
 - 在非登录shell里，**环境信息只读取 `/etc/bash.bashrc`和`~/.bashrc`**
   手工执行是属于登陆shell，脚本执行数据非登陆shell，而我的linux环境配置中只对`/etc/profile`进行了jdk1.7等环境的配置，所以脚本执行`/usr/local/zookeeper/bin/zkServer.sh start `启动zookeeper失败了
 
+<br>
+
+
+
 # Answer
 
 ---
