@@ -3,7 +3,10 @@ title: KafkaMQ--KafkaQA
 mathjax: false
 date: 2019-09-14 15:38:09
 tags:
+- Big Data
+- Kafka
 categories:
+- Big Data
 top:
 photo:
 ---
