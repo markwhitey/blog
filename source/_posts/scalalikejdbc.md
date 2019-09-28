@@ -30,13 +30,27 @@ ScalikeJDBC是一款给Scala开发者使用的简洁DB访问类库，它是基�
 
 # 概念
 
+---
+
 ​		ScalikeJDBC是一款给Scala开发者使用的简洁DB访问类库，它是基于SQL的，使用者只需要关注SQL逻辑的编写，所有的数据库操作都交给ScalikeJDBC。这个类库内置包含了JDBC API，并且给用户提供了简单易用并且非常灵活的API。并且，QueryDSL(通用查询查询框架)使你的代码类型安全的并且可重复使用。我们可以在生产环境大胆地使用这款DB访问类库。
+
+<br>
 
 # 官网
 
+---
+
 http://scalikejdbc.org/
 
+
+
+<br>
+
+
+
 # 项目中使用ScalaLikeJDBC
+
+---
 
 ## Step1=>>在pom.xml导入依赖
 
