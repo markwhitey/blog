@@ -239,7 +239,7 @@ Producer 压缩之后，在 Consumer 需进行解压，虽然增加了 CPU 的�
 
 这里介绍的数据一致性主要是说不论是老的 Leader 还是新选举的 Leader，Consumer 都能读到一样的数据。那么 Kafka 是如何实现的呢？
 
-![](C:\Users\Administrator\Desktop\big data\Q1TXCzfeaYHdkGr.png)
+![](C:\Users\Administrator\Desktop\big data\xkFyjVo8ngTHKeU.png)
 
 假设分区的副本为3，其中副本0是 Leader，副本1和副本2是 follower，并且在 ISR 列表里面。虽然副本0已经写入了 Message4，但是 Consumer 只能读取到 Message2。因为所有的 ISR 都同步了 Message2，**只有 High Water Mark 以上的消息才支持 Consumer 读取**，而 High Water Mark 取决于 ISR 列表里面偏移量最小的分区，对应于上图的副本2，这个很类似于木桶原理。
 
@@ -339,6 +339,42 @@ Pull 有个缺点是，**如果 broker 没有可供消费的消息，将导致 c
 Kafka 分区数据不支持减少是由很多原因的，比如减少的分区其数据放到哪里去？是删除，还是保留？删除的话，那么这些没消费的消息不就丢了。如果保留这些消息如何放到其他分区里面？追加到其他分区后面的话那么就破坏了 Kafka 单个分区的有序性。如果要保证删除分区数据插入到其他分区保证有序性，那么实现起来逻辑就会非常复杂。
 
 <br>
+
+# **Kafka 重复消费同一 Topic 数据**
+
+---
+
+## 在 **高级API** 中，消费者要从头开始消费某个 **topic** 的全量数据，需要满足 2 个条件：
+
+
+- 使用一个全新的"group.id"（就是之前没有被任何消费者使用过）;
+
+- 使用assign来订阅；
+
+注意：如果把 **"enable.auto.commit" 设为 "false"**，使用 **consumer.commitAsync(currentOffsets, null)** 手动提交 **offset** ，是不能从头开始消费的
+
+## **auto.offset.reset 值含义解释**:
+
+**earliest**:
+当各分区下有已提交的 offset 时，从提交的 offset 开始消费；无提交的 offset 时，从头开始消费
+**latest**:
+当各分区下有已提交的 offset 时，从提交的 offset 开始消费；无提交的 offset 时，消费新产生的该分区下的数据
+**none**:
+topic 各分区都存在已提交的 offset 时，从 offset 后开始消费；只要有一个分区不存在已提交的 offset，则抛出异常
+
+> 也就是说无论哪种设置，只要 **kafka** 中相同 **group**、**partition** 中已经有提交的 **offset**，则都无法从开始消费。
+
+## API解释:(high/low level)
+
+**KafkaConsumer.subscribe() :** 
+
+为consumer自动分配partition，有内部算法保证topic-partition以最优的方式均匀分配给同group下的不同consumer。如果有多个partition且只有一个消费者，则按顺序消费所有分区。不会重复消费。
+
+**KafkaConsumer.assign() :**
+
+ 为consumer手动、显示的指定需要消费的topic-partitions，不受group.id限制，不提交offset，相当与指定的group无效（this method does not use the consumer's group management）。可以重复消费。
+
+
 
 
 
