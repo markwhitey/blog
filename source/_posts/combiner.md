@@ -31,7 +31,7 @@ photo:
 
 这里要讲的是 MapReduce 的 Combiner 模块，在有的情况下使用 Combiner 会使程序性能提升 N 倍，个人觉得**使用 Combiner 之后传输到 reduce 的数据量有所减少才是 Combiner 存在的意义**。
 
-![](C:\Users\Administrator\Desktop\big data\w1hKD5svIfrcynA.png)
+![](https://i.loli.net/2019/10/13/w1hKD5svIfrcynA.png)
 
 此图只是简要描述 map -> combiner -> reduce 这一过程，最后的 Partitioner 其实就是 Reduce。
 

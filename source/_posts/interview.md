@@ -1,8 +1,9 @@
 ---
-title: interview
+title: Interview备忘录
 mathjax: false
 date: 2019-10-10 09:07:11
 tags:
+- Interview
 categories:
 top:
 photo:
@@ -12,7 +13,7 @@ photo:
 
 {% cq %}
 
-
+比较重要的知识点
 
 {% endcq %}
 
@@ -33,3 +34,60 @@ photo:
 <br>
 
 ​	
+
+# maptask的工作机制
+
+---
+
+> 五个阶段: read map collect spill combine 
+
+## read
+
+map task 通过用户编写的recordreader,从输入的input split 中解析出一个个的key/value
+
+## map
+
+将解析出来的key/value值通过用户自己编写的map函数处理,生成一系列新的key/value值
+
+## collect
+
+在用户编写完map函数中,当数据处理完成后,一般会调用outputCollector.collect输出结果,生成key/value分区,并写入环形内存缓冲区
+
+## spill
+
+当环形区满后,MapReduce会把数据会把数据写入本地磁盘,生成一个临时文件,在此之前需要把数据进行一次本地排序,并在必要的时候进行合并,压缩等操作
+
+(分区内快速排序,key排序)
+
+## combine
+
+把所有的临时文件整合成一个大文件,保证最后每个maptask仅仅生成一个文件<先在每个分区内多轮递归合并
+
+
+
+# reducetask的工作机制
+
+---
+
+> copy merge sort reduce
+
+## copy
+
+reducetask从各个maptask上远程拷贝一篇数据,如果大小超过一定阈值
+
+
+
+# hadoop 的资源调度方式
+
+FIFO
+
+Capacity Scheduler
+
+Fair Scheduler
+
+LATE
+
+Deadline Scheduler和Constraint-based Scheduler
+
+
+
