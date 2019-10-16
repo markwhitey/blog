@@ -75,9 +75,21 @@ map task 通过用户编写的recordreader,从输入的input split 中解析出�
 
 reducetask从各个maptask上远程拷贝一篇数据,如果大小超过一定阈值
 
+## Merge
 
+在远程拷贝数据的同时，ReduceTask启动了两个后台线程对内存和磁盘上的文件进行合并，以防止内存使用过多或磁盘上文件过多。
+
+## Sort
+
+按照MapReduce语义，用户编写reduce()函数输入数据是按key进行聚集的一组数据。为了将key相同的数据聚在一起，Hadoop采用了基于排序的策略。由于各个MapTask已经实现对自己的处理结果进行了局部排序，因此，ReduceTask只需对所有数据进行一次归并排序即可。
+
+## Reduce
+
+reduce()函数将计算结果写到HDFS上。
 
 # hadoop 的资源调度方式
+
+---
 
 FIFO
 
@@ -91,3 +103,26 @@ Deadline Scheduler和Constraint-based Scheduler
 
 
 
+# BloomFilter原理简析
+
+---
+
+· 主要功能：提供随机读的性能
+
+·  存储开销：BloomFilter是列族级别的配置，一旦表格中开启BloomFilter，那么在生成StoreFile时同时会生成一份包含BloomFilter结构的文件MetaBlock，所以会增加一定的存储开销和内存开销
+
+· 粒度控制：ROW和ROWCOL
+
+· BloomFilter的原理
+
+  简单说一下BloomFilter原理：
+
+  ① 内部是一个bit数组，初始值均为0
+
+② 插入元素时对元素进行hash并且映射到数组中的某一个index，将其置为1，再进行多次不同的hash算法，将映射到的index置为1，同一个index只需要置1次。
+
+③ 查询时使用跟插入时相同的hash算法，如果在对应的index的值都为1，那么就可以认为该元素可能存在，注意，只是可能存在
+
+④ 所以BlomFilter只能保证过滤掉不包含的元素，而不能保证误判包含
+
+· 设置：在建表时对某一列设置BloomFilter即可
