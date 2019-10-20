@@ -27,7 +27,7 @@ Kafka 其实也只是一个 JVM 进程，要想把一个进程搞崩溃，相信
 
 你可以试着在一台普通的 Linux 机器上创建 10000 个分区的主题。比如下面示例中创建一个主题 topic-bomb：
 
-```
+```shell
 [root@node1 kafka_2.11-2.0.0]# bin/kafka-topics.sh --zookeeper localhost:2181/kafka 
 --create --topic topic-bomb --replication-factor 1 --partitions 10000
 Created topic "topic-bomb".
@@ -37,7 +37,7 @@ Created topic "topic-bomb".
 
 想要知道真相，我们可以打开 Kafka 的服务日志文件（$KAFKA_HOME/logs/server.log）来一探究竟，你会发现服务日志中出现大量的如下异常：
 
-```
+```shell
 [2018-09-13 00:36:40,019] ERROR Error while creating log for topic-bomb-xxx in dir /tmp/kafka-logs (kafka.server.LogDirFailureChannel)
 java.io.IOException: Too many open files
 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
@@ -51,7 +51,7 @@ java.io.IOException: Too many open files
 
 异常中最关键的信息是：“Too many open flies”，这是一种常见的 Linux 系统错误，通常意味着文件描述符不足，它一般会发生在创建线程、创建 Socket、打开文件这些场景下。在 Linux 系统中的默认设置下，这个文件描述符的个数不是很高，可以通过 ulimit 查看：
 
-```
+```shell
 [root@node1 kafka_2.11-2.0.0]# ulimit -n
 [root@node1 kafka_2.11-2.0.0]# ulimit -Sn
 [root@node1 kafka_2.11-2.0.0]# ulimit -Hn
@@ -63,7 +63,7 @@ ulimit 是在系统允许的情况下，提供对特定 shell 可利用的资源
 
 我们可以通过测试来验证一下本案例中的 Kafka 崩溃是否是由于文件描述符的限制而引起的。首先启动 Kafka 集群，集群中有 3 个节点，配置一样。挑选其中的一台节点 node1 做具体分析，通过 jps 命令我们可以查看到 kafka 的进程 pid 的值：
 
-```
+```shell
 [root@node1 kafka_2.11-2.0.0]# jps -l
 31796 kafka.Kafka
 ```
@@ -101,7 +101,7 @@ Created topic "topic-bomb-3".
 
 Kafka 进程依旧完好，文件描述符占用为 4095，逼近最高值 4096。最后我们再次创建一个只有一个分区的主题：
 
-```
+```shell
 [root@node1 kafka_2.11-2.0.0]# bin/kafka-topics.sh --zookeeper localhost:2181/kafka --create --topic topic-bomb-4 --replication-factor 1 --partitions 1
 Created topic "topic-bomb-4".
 [root@node1 kafka_2.11-2.0.0]# ls /proc/31796/fd | wc -l

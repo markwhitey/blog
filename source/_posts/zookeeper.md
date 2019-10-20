@@ -238,7 +238,7 @@ ZooKeeper 中的节点有两种，分别为临时节点和永久节点 (还可�
 
 <br>
 
-# Zookeepe如何实现原理
+# Zookeeper如何实现原理
 
 ---
 

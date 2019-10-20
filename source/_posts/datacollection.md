@@ -27,7 +27,7 @@ photo:
 
 ----
 
-![](C:\Users\Administrator\Desktop\big data\3iEgybYumfW4G2Z.png)
+![](https://i.loli.net/2019/10/20/EOpQSCU1uxLAmnk.png)
 
 ## Flume配置
 
@@ -49,9 +49,9 @@ photo:
 
    采用**Kafka** Channel，省去了Sink，提高了效率。
 
-![](C:\Users\Administrator\Desktop\big data\3NEsfYjerFDpLm6.png)
+![](https://i.loli.net/2019/10/20/RbxNFHp6s4l7t3w.png)
 
-![](C:\Users\Administrator\Desktop\big data\3udD7Ll9eSIJzsY.png)
+![](https://i.loli.net/2019/10/20/MiYL2UhaDngywZO.png)
 
 <br>
 
