@@ -14,7 +14,7 @@ photo:
 
 {% cq %}
 
-## call sysproc.admin_cmd(‘reorg table TABLE_NAME’)
+call sysproc.admin_cmd(‘reorg table TABLE_NAME’)
 
 {% endcq %}
 
@@ -78,12 +78,11 @@ After a table has been altered to enable row compression, all rows in the table 
 3. **REORG** TABLE 执行REORG可以考虑分为表上有索引和没有索引两种情况：
 
    1. 如果表上有索引如表名为DB2INST1.STAFF，索引名为DB2INST1.STAFF，REORG表：db2 reorg table db2inst1. staff index db2inst1.istaff use tempspace1 建议REORG时可以使用USE参数指定数据重排时使用的临时表空间。如果不指定， REORG工作将会在表所在表空间中原地执行。如果表上有多个索引，INDEX参数值请使用最为重要的索引名。REORG索引：db2 reorg indexes all for table db2inst1.staff 
+2. 如果表上没有索引如表名为DB2INST1.STAFF, SYSIBM.SYSTABLES db2 reorg table db2inst1.staff use tempspace1 db2 reorg table sysibm.systables use tempspace1
+   
+4.  **RUNSTATS** 参见步骤1
 
-   2. 如果表上没有索引如表名为DB2INST1.STAFF, SYSIBM.SYSTABLES db2 reorg table db2inst1.staff use tempspace1 db2 reorg table sysibm.systables use tempspace1
-
- 4 **RUNSTATS** 参见步骤1。
-
-5 (可选)上面命令完成后可以重复第二步，检查REORG的结果，如果需要，可以再次执行REORG和RUNSTATS命令。6 BIND或REBIND RUNSTATS命令运行后，应对数据库中的PACKAGE进行重新联编，简单地，可以使用db2rbind命令来完成。例如，如果数据库名为SAMPLE，执行：db2rbind sample -l db2rbind.out 
+5. (可选)上面命令完成后可以重复第二步，检查REORG的结果，如果需要，可以再次执行REORG和RUNSTATS命令。6 BIND或REBIND RUNSTATS命令运行后，应对数据库中的PACKAGE进行重新联编，简单地，可以使用db2rbind命令来完成。例如，如果数据库名为SAMPLE，执行：db2rbind sample -l db2rbind.out 
 
 上述DB2命令详细语法解释需参考: 《Command Reference》
 
