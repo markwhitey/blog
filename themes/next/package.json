@@ -35,5 +35,8 @@
     "js-yaml": "^3.8.1",
     "jshint-stylish": "^2.1.0",
     "stylint": "^1.5.9"
+  },
+  "dependencies": {
+    "hexo-generator-calendar": "github:theme-next/theme-next-calendar"
   }
 }

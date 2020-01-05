@@ -1001,6 +1001,14 @@ canvas_ribbon:
   alpha: 0.6
   zIndex: -1
 
+CloudCalendar:
+  enable: true
+  language: zh-CN
+  single: true
+  root: /calendar/
+  calendarCdn: //cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/calendar.min.js
+  langCdn: //cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/languages.min.js
+  #disableSidebar: false
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
