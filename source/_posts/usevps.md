@@ -32,10 +32,25 @@ photo:
 
 huginn算是相当好搭建的服务了，只需要跟着官网的教程一步一步来就可以
 
+地址：https://github.com/huginn/huginn
+
 # 搭建网盘sharelist
+---
+非常简单的网盘助手，可以在线播放，生成下载链接
+
+地址：https://github.com/reruin/sharelist
+
 
 # 搭建GD资源转存BOT
+---
+这个可以配合上一个网盘list来使用，因为资源比较多，所以tg上可以用来一键转存资源，非常的方便
+
+地址：https://github.com/iwestlin/gd-utils
 
 # 机场订阅链接转换
+---
+这个是用来适应不同翻墙软件配置的转换工具，高度自定义
+
+地址：https://github.com/iwestlin/gd-utils
 
 
