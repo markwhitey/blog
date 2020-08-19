@@ -7,15 +7,15 @@ title: Nobyin`s Blog
 subtitle:
 description: 明白自己无能为力是人生的基本，活着就是要在基本上添加别的东西，哪怕是一点点也好。
 keywords: life
-author: Martian
+author: Nobyin
 language: en
 timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://42one.xyz
+url: https://noby.in
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
