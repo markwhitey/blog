@@ -15,6 +15,8 @@ Impala 与Hive都是构建在Hadoop之上的数据查询工具各有不同的侧
 
 {% endcq %}
 
+<!-- more -->
+
 > 公司最近上了hue的在线查询工具，集成了hive和Impala，所以记一下笔记来更好的使用工具
 
 # Impala相对于Hive所使用的优化技术
