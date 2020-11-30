@@ -8,6 +8,10 @@ categories:
   - Impala
 comments: true
 ---
+{% cq %}
+关于时间函数
+{% endcq %}
+
 -- 当前时间戳
 now()
 current_timestamp()
