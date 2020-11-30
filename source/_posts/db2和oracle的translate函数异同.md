@@ -3,7 +3,7 @@ title: DB2和Oracle的TRANSLATE函数异同
 date: 2020-10-10 13:35:47
 updated: 2020-10-10 13:35:47
 tags:
-  - 数据库
+  - DB2
 comments: true
 ---
 oracle里：
