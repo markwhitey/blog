@@ -8,7 +8,7 @@ comments: true
 ---
 {% cq %}
 
-TRANSLATE 在不同数据库中含义不同
+TRANSLATE 在DB2和Oracle中参数位置不同
 
 {% endcq %}
 
