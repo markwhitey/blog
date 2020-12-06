@@ -12,6 +12,10 @@ TRANSLATE 在不同数据库中含义不同
 
 {% endcq %}
 
+<!-- more -->
+
+<br>
+
 
 oracle里：
              TRANSLATE(str1,str2,str3)
