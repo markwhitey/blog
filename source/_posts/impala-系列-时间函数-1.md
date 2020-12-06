@@ -12,6 +12,9 @@ comments: true
 关于时间函数
 {% endcq %}
 
+<!-- more -->
+
+<br>
 
 
 -- 当前时间戳
